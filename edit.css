@@ -1,0 +1,82 @@
+h2{
+    color: rgb(58, 54, 54);
+    font-family: "Times New Roman", Times, serif;
+   text-align:left;
+   font-weight:1000;
+   font-size:100px;
+   letter-spacing:2px;
+   text-decoration:plum ;
+   margin: 20px;
+   font-family: 'Sansita Swashed', cursive;
+
+}
+h1{
+    color: rgb(66, 65, 3);
+   /* font-family: Arial, Helvetica, sans-serif;*/
+   text-align:center;
+   font-weight:1200;
+   font-size:100px;
+   letter-spacing:0px;
+   text-decoration:underline;
+   position: relative;
+   transform: rotateX(45deg);
+   text-transform: uppercase bold;
+   font-family: 'Nerko One', cursive;
+
+
+}
+img{
+    border-width :2px;
+    border-color:rgb(230, 186, 192);
+    border-style:solid;
+    /*border-radius:5px;*/
+    /*border-radius: 50%;*/
+    width:700px;
+    font-weight: bolder;
+    background-color: lightcoral;
+    /*width: 350px;*/ 
+    height: 200px;
+    width: 30%;
+    margin: 1%;
+    border-width: 5px;
+    border-style: inset;
+}
+
+div{
+    font-weight: 700;
+    color:black;
+    letter-spacing: 2px;
+    background-color: lavender;
+    text-align:center;
+    border-width: 5px;
+    padding: 10px;
+    border-style: none;
+    width: 500px; 
+    height: 20px;
+    font-family: 'Anton', sans-serif;
+}
+p{
+    border-width: 5px;
+    border-style: none;
+    display: block;
+    font-family: 'Satisfy', cursive;
+}
+.circle:hover{
+    border-radius: 50%;
+    background-color: red;
+    transition: 3s;
+    transition: transform 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNlTXs99J2UfLrDB9VTKCgFa8iaz4mokEVw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-grow: 1;
+}
+/*using google font in everywhere writing changed in css its font family in html its a link pasted in head*/
+
+@media (max-width:500px){
+    h1, h2{
+        font-size: 50px;
+    }
+}
